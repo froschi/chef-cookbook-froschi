@@ -10,6 +10,7 @@ packages = %w/
   ruby1.9.1
   ruby1.9.1-dev
   tmux
+  tree
   vim
   vim-gnome
   virtualbox
@@ -21,6 +22,7 @@ gems = %w/
   chef
   hub
   nokogiri
+  rubyzip
 /
 
 # Requires chef
