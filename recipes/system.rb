@@ -4,6 +4,9 @@ packages = %w/
   debtree
   git
   libgecode-dev
+  libxml2-dev
+  libxslt1-dev
+  pwgen
   ruby1.9.1
   ruby1.9.1-dev
   tmux
@@ -17,6 +20,7 @@ gems = %w/
   bundler
   chef
   hub
+  nokogiri
 /
 
 # Requires chef
@@ -28,6 +32,7 @@ gems |= %w/
 gems |= %w/
   vagrant
   vagrant-vbguest
+  veewee
 /
 
 packages.each do |pkg|
