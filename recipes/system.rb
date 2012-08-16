@@ -1,3 +1,5 @@
+include_recipe "froschi::firefox"
+
 packages = %w/
   aptitude
   build-essential
