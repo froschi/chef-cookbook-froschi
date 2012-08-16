@@ -1,3 +1,5 @@
+require 'zip/zip'
+
 action :unzip do
 
 end
