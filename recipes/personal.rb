@@ -3,6 +3,7 @@ group = user
 homedir = "/home/#{user}"
 
 directory homedir do
+  action :nothing
   owner user
   group group
   mode 0700
@@ -25,4 +26,3 @@ directory gpgdir do
   group group
   mode 0700
 end
-
