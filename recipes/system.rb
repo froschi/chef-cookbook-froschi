@@ -15,6 +15,7 @@ packages = %w/
   tree
   vim
   vim-gnome
+  virt-manager
   virtualbox
 /
 
