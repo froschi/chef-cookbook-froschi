@@ -27,13 +27,22 @@ directory gpgdir do
   mode 0700
 end
 
-vimdir = "#{homedir}/.vim/autoload"
+vimdirs = %w/
+  autoload
+  bundle
+  plugin
+/
 
-directory vimdir do
-  owner user
-  group group
-  recursive true
-  mode 0755
+vimroot = "#{homedir}/.vim"
+
+vimdirs.each do |vimdir|
+  d = File.join(vimroot, vimdir)
+  directory d do
+    owner user
+    group group
+    recursive true
+    mode 0755
+  end
 end
 
 git "#{homedir}/.csolo/pathogen" do
