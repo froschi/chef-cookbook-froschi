@@ -45,6 +45,18 @@ vimdirs.each do |vimdir|
   end
 end
 
+vimaddons = {
+  "fugitive" => "https://github.com/tpope/vim-fugitive.git",
+  "nerdtree" => "https://github.com/scrooloose/nerdtree.git",
+}
+
+vimaddons.each do |name, url|
+  git "#{vimroot}/bundle/#{name}" do
+    repository url
+    action :sync
+  end
+end
+
 git "#{homedir}/.csolo/pathogen" do
   repository "https://github.com/tpope/vim-pathogen.git"
   reference 'v2.0'
