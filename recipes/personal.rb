@@ -48,6 +48,7 @@ end
 vimaddons = {
   "endwise" => "https://github.com/tpope/vim-endwise.git",
   "fugitive" => "https://github.com/tpope/vim-fugitive.git",
+  "markdown" => "https://github.com/hallison/vim-markdown.git",
   "nerdtree" => "https://github.com/scrooloose/nerdtree.git",
 }
 
