@@ -42,6 +42,13 @@ git "#{homedir}/.csolo/pathogen" do
   action :sync
 end
 
+# This doesn't do what I expected it to do. Giving a pathname
+# to 'source' complains that the source file is not in the cookbook.
+# Using a file:// URL leads to "connection refused". Bummer.
+#remote_file "#{homedir}/.vim/autoload/pathogen.vim" do
+#  source "file://#{homedir}/.csolo/pathogen/pathogen.vim"
+#end
+
 # The following works as intended; however, what's intended is not
 # what I really need.
 #directory "#{homedir}/.vim/testing/shared" do
