@@ -7,3 +7,5 @@ module Froschi
 
   end
 end
+
+Chef::Recipe.send(:include, Froschi::Helper)
