@@ -27,10 +27,17 @@ directory gpgdir do
   mode 0700
 end
 
-vimdir = "#{homedir}/.vim"
+vimdir = "#{homedir}/.vim/autoload"
 
 directory vimdir do
   owner user
   group group
-  mode 0700
+  recursive true
+  mode 0755
+end
+
+git "#{homedir}/.csolo/pathogen/" do
+  repository "https://github.com/tpope/vim-pathogen.git"
+  reference 'v2.0'
+  action :sync
 end
