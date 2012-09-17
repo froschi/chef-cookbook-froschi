@@ -46,6 +46,7 @@ vimdirs.each do |vimdir|
 end
 
 vimaddons = {
+  "endwise" => "https://github.com/tpope/vim-endwise.git",
   "fugitive" => "https://github.com/tpope/vim-fugitive.git",
   "nerdtree" => "https://github.com/scrooloose/nerdtree.git",
 }
