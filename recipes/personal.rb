@@ -26,3 +26,11 @@ directory gpgdir do
   group group
   mode 0700
 end
+
+vimdir = "#{homedir}/.vim"
+
+directory vimdir do
+  owner user
+  group group
+  mode 0700
+end
