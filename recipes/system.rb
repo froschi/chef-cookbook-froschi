@@ -5,12 +5,10 @@ packages = %w/
   build-essential
   debtree
   git
-  libgecode-dev
-  libxml2-dev
-  libxslt1-dev
   pwgen
+  python-docutils
   ruby1.9.1
-  ruby1.9.1-dev
+  sysstat
   tmux
   tree
   vim
@@ -18,13 +16,27 @@ packages = %w/
   virtualbox
 /
 
+# Development packages
+packages |= %w/
+  libgecode-dev
+  libxml2-dev
+  libxslt1-dev
+  zlib1g-dev
+  ruby1.9.1-dev
+/
+
 gems = %w/
   berkshelf
   bundler
   chef
+  heroku
   hub
+  jekyll
+  json
   nokogiri
+  rdiscount
   rubyzip
+  tmuxinator
 /
 
 # Requires chef
