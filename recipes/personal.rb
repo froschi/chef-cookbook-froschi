@@ -50,6 +50,7 @@ vimaddons = {
   "fugitive" => "https://github.com/tpope/vim-fugitive.git",
   "markdown" => "https://github.com/hallison/vim-markdown.git",
   "nerdtree" => "https://github.com/scrooloose/nerdtree.git",
+  "snipmate" => "https://github.com/msanders/snipmate.vim.git"
 }
 
 vimaddons.each do |name, url|
