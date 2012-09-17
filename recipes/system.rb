@@ -2,6 +2,7 @@ include_recipe "froschi::firefox"
 
 packages = %w/
   aptitude
+  apt-file
   build-essential
   debtree
   git
