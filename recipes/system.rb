@@ -6,9 +6,11 @@ packages = %w/
   build-essential
   debtree
   git
+  git-svn
   pwgen
   python-docutils
   ruby1.9.1
+  subversion
   sysstat
   tmux
   tree
