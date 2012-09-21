@@ -5,6 +5,7 @@ packages = %w/
   apt-file
   build-essential
   debtree
+  devscripts
   git
   git-svn
   pwgen
