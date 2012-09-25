@@ -1,3 +1,5 @@
+include_recipe 'froschi::vagrant'
+
 user = "thorsten"
 group = user
 homedir = "/home/#{user}"
