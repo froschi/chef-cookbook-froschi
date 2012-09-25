@@ -9,7 +9,7 @@ vagrantdirs = %w/archives cookbooks/
 directory vagrantroot do
   owner user
   group group
-  mode 0755
+  mode 0775
 end
 
 vagrantdirs.each do |vagrantdir|
@@ -18,6 +18,6 @@ vagrantdirs.each do |vagrantdir|
     owner user
     group group
     recursive true
-    mode 0755
+    mode 0775
   end
 end
