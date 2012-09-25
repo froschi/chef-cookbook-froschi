@@ -5,7 +5,6 @@ packages = %w/
   apt-file
   build-essential
   debtree
-  devscripts
   git
   git-svn
   pwgen
@@ -22,6 +21,16 @@ packages = %w/
 /
 
 # Development packages
+packages |= %w/
+  autoconf
+  automake
+  debhelper
+  devscripts
+  libtool
+  m4
+/
+
+# Development headers
 packages |= %w/
   libgecode-dev
   libxml2-dev
