@@ -4,7 +4,7 @@ homedir = "/home/#{user}"
 
 # Vagrant directory structure
 vagrantroot = "#{homedir}/scm/vagrant"
-vagrantdirs = %w/archives cookbooks/
+vagrantdirs = %w/archives cookbooks data_bags roles/
 
 directory vagrantroot do
   owner user
