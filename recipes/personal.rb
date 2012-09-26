@@ -92,3 +92,5 @@ end
 #  symlinks({})
 #  symlink_before_migrate({})
 #end
+
+include_recipe 'froschi::dotfiles'

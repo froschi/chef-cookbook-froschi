@@ -1,0 +1,10 @@
+set modeline
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Fire up pathogen if we have it installed
+if filereadable("$HOME/.vim/autoload/pathogen.vim")
+  call pathogen#infect()
+endif

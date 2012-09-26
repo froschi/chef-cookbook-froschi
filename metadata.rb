@@ -9,6 +9,7 @@ recipe "froschi::personal", "Configures personal stuff."
 recipe "froschi::vagrant", "Configures my personal vagrant stuff."
 recipe "froschi::system", "Configures the system."
 recipe "froschi::firefox", "Installs Firefox extensions."
+recipe "froschi::dotfiles", "Installs dotfiles."
 
 version "0.0.1"
 
