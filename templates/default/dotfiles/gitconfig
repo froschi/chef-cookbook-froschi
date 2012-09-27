@@ -1,0 +1,9 @@
+[user]
+  email = thorsten@froschi.org
+  name = Thorsten Fischer
+
+[color]
+  ui = true
+
+[alias]
+  sb = !git status -sb

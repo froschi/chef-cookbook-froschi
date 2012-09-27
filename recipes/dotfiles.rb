@@ -15,8 +15,15 @@ template "#{homedir}/.tmux.conf" do
   mode 0644
 end
 
-template "#{homedir}/bash_aliases" do
-  source 'dotfiles/.bash_aliases'
+template "#{homedir}/.bash_aliases" do
+  source 'dotfiles/bash_aliases'
+  owner user
+  group user
+  mode 0644
+end
+
+template "#{homedir}/.gitconfig" do
+  source 'dotfiles/gitconfig'
   owner user
   group user
   mode 0644
