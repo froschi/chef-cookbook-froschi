@@ -33,6 +33,7 @@ packages |= %w/
 # Development headers
 packages |= %w/
   libgecode-dev
+  libncurses5-dev
   libxml2-dev
   libxslt1-dev
   zlib1g-dev
