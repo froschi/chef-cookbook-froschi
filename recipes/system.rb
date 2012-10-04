@@ -9,6 +9,7 @@ packages = %w/
   git-svn
   pwgen
   python-docutils
+  python-gpgme
   ruby1.9.1
   subversion
   sysstat
@@ -26,8 +27,11 @@ packages |= %w/
   automake
   debhelper
   devscripts
+  genisoimage
   libtool
   m4
+  squashfs-tools
+  syslinux
 /
 
 # Development headers
@@ -38,6 +42,14 @@ packages |= %w/
   libxslt1-dev
   zlib1g-dev
   ruby1.9.1-dev
+/
+
+# Networking goodness
+packages |= %w/
+  fping
+  hping3
+  nmap
+  tcpdump
 /
 
 gems = %w/
