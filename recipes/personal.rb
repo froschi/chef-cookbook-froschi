@@ -93,4 +93,5 @@ end
 #  symlink_before_migrate({})
 #end
 
+include_recipe 'froschi::dldirs'
 include_recipe 'froschi::dotfiles'
