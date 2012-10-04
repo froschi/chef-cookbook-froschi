@@ -26,6 +26,7 @@ packages |= %w/
   autoconf
   automake
   debhelper
+  debootstrap
   devscripts
   genisoimage
   libtool
