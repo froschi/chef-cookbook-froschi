@@ -22,17 +22,29 @@ packages = %w/
 /
 
 # Development packages
+# This includes Ubuntu package building.
 packages |= %w/
   autoconf
   automake
+  cdbs
   debhelper
   debootstrap
   devscripts
+  dh-make
+  diff
+  fakeroot
   genisoimage
+  gnupg
   libtool
+  lintian
   m4
+  patch
+  pbuilder
+  piuparts
+  quilt
   squashfs-tools
   syslinux
+  ubuntu-dev-tools
 /
 
 # Development headers
