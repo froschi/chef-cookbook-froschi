@@ -18,7 +18,7 @@ packages = %w/
   vim
   vim-gnome
   virt-manager
-  virtualbox
+  virtualbox-4.2
 /
 
 # Development packages
@@ -59,9 +59,11 @@ packages |= %w/
 
 # Networking goodness
 packages |= %w/
+  dsniff
   fping
   hping3
   nmap
+  sslstrip
   tcpdump
 /
 
@@ -82,13 +84,6 @@ gems = %w/
 # Requires chef
 gems |= %w/
   knife-block
-/
-
-# Requires virtualbox
-gems |= %w/
-  vagrant
-  vagrant-vbguest
-  veewee
 /
 
 packages.each do |pkg|
