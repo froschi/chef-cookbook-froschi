@@ -7,3 +7,6 @@
 
 [alias]
   sb = !git status -sb
+
+[push]
+  default = simple
