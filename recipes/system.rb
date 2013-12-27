@@ -71,7 +71,6 @@ gems = %w/
   berkshelf
   bundler
   chef
-  heroku
   hub
   jekyll
   json
